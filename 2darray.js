@@ -1,3 +1,16 @@
+let plants = [["Begonia", "Daisy", "Lily", "Peony", "Rose", "Sunflower", "Lavender", "Violet", "Crimson"], [8, 6, 3, 4, 5, 7, 2, null,1]] // these numbers act as pointers
+
+let currentElement = 0
+
+while(currentElement !== null) {
+  console.log(plants[0][currentElement])
+  currentElement = plants[1][currentElement]
+}
+
+console.table(plants);
+
+console.log("-----------------------");
+
 // task = ["a", "b", "c", "d"]
 
 
