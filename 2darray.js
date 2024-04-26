@@ -1,45 +1,55 @@
-let plants = [["Begonia", "Daisy", "Lily", "Peony", "Rose", "Sunflower", "Lavender", "Violet", "Crimson"], [8, 6, 3, 4, 5, 7, 2, null,1]] // these numbers act as pointers
+// const rl = require("readline-sync");
 
-let currentElement = 0
+// let move = Start(rl.question("Player 1, make your move"));
 
-while(currentElement !== null) {
-  console.log(plants[0][currentElement])
-  currentElement = plants[1][currentElement]
-}
+// console.log();
 
-console.table(plants);
+let gameboard = [[][]]
 
-console.log("-----------------------");
+// -----------------------------------------------
 
-// task = ["a", "b", "c", "d"]
+// let plants = [["Begonia", "Daisy", "Lily", "Peony", "Rose", "Sunflower", "Lavender", "Violet", "Crimson"], [8, 6, 3, 4, 5, 7, 2, null,1]] // these numbers act as pointers
 
+// let currentElement = 0
 
-// for (let letter in task){
-//   console.log(task[letter])
+// while(currentElement !== null) {
+//   console.log(plants[0][currentElement])
+//   currentElement = plants[1][currentElement]
 // }
 
-let counter = 0;
-let amount = 0;
-let array = [];
+// console.table(plants);
 
-let scores = [ [78, 81, 84], [55, 54, 62], [89, 71, 90] ];
-for (let score of scores) {
-  for (let individualScore of score) {
-    counter += individualScore;
-    // console.log(individualScore)
-    amount ++;
-    array.push(individualScore);
-    // console.log(Math.max[]);
-  }
-}
+// console.log("-----------------------------------------------------------------");
 
-let average = Math.round(counter / amount);
+// // task = ["a", "b", "c", "d"]
 
-// console.log(array);
-console.log("Max score:", Math.max(...array));
-console.log("Min score:", Math.min(...array));
-console.log("Average:", average);
-console.log("Total:", counter);
+
+// // for (let letter in task){
+// //   console.log(task[letter])
+// // }
+
+// let counter = 0;
+// let amount = 0;
+// let array = [];
+
+// let scores = [ [78, 81, 84], [55, 54, 62], [89, 71, 90] ];
+// for (let score of scores) {
+//   for (let individualScore of score) {
+//     counter += individualScore;
+//     // console.log(individualScore)
+//     amount ++;
+//     array.push(individualScore);
+//     // console.log(Math.max[]);
+//   }
+// }
+
+// let average = Math.round(counter / amount);
+
+// // console.log(array);
+// console.log("Max score:", Math.max(...array));
+// console.log("Min score:", Math.min(...array));
+// console.log("Average:", average);
+// console.log("Total:", counter);
 
 
 
